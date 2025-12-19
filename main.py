@@ -1,7 +1,6 @@
 from flask import Flask, jsonify, request,render_template
 import pandas as pd
 import config
-import pymongo
 from src.database import Obj
 
 
